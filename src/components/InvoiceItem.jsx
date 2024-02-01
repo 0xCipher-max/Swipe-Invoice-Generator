@@ -10,7 +10,7 @@ const InvoiceItem = (props) => {
 
   const itemTable = items.map((item) => (
     <ItemRow
-      key={item.id}
+      key={item.itemId}
       item={item}
       onDelEvent={onRowDel}
       onItemizedItemEdit={onItemizedItemEdit}
